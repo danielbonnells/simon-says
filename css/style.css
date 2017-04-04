@@ -1,0 +1,184 @@
+
+
+body {
+  background-color: #ccc;
+  text-align: center;
+  font-size: 20px;
+  
+
+}
+
+#name {
+  display: inline-block;
+  position: relative;
+  top: 192px;
+  z-index: 1000;
+  color: #d9d9d9;
+  font-size: 44px;
+  font-family: 'Russo One', sans-serif;
+  
+}
+
+#R{
+  display: inline-block;
+  top: 175px;
+  position: relative;
+  left: 5px;
+  z-index: 1000;
+  color: #d9d9d9;
+  font-size: 15px;
+  font-family: 'Russo One', sans-serif;
+  
+}
+
+#box {
+  display: block;
+  position: relative;
+  background-color:  #595959;
+  width: 320px;
+  height: 320px;
+  border-radius: 30px; 
+  left: 50%;
+  margin-left: -160px;
+  box-shadow: inset 0px 0px 555px black;
+  
+  
+}
+
+#text {
+  font-size: .8em;
+  opacity: 0.6;
+}
+
+.buttons {
+  display: inline-block;
+  background-color: black;
+  width: 35%;
+  height: 35%;
+  margin: 7%;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+  transition-timing-function: ease;
+  box-shadow: 0px 0px 15px black;
+
+  
+}
+
+.buttons:hover {
+  
+
+}
+
+.buttons:active {
+    box-shadow: inset 2px 2px 2px white;
+
+}
+
+#button1{
+  background-color:  #33cc33;
+  -webkit-clip-path: circle(59.0% at 66% 63%);
+  clip-path: circle(59.0% at 66% 63%);
+}
+
+#button2{
+  background-color: red;
+  -webkit-clip-path: circle(59.0% at 34% 63%);
+  clip-path: circle(59.0% at 34% 63%);
+}
+
+#button3{
+  background-color: yellow;
+   -webkit-clip-path: circle(59.0% at 66% 37%);
+   clip-path: circle(59.0% at 66% 37%);
+}
+
+#button4{
+  background-color:  #134098;
+    -webkit-clip-path: circle(59.0% at 33% 37%);
+    clip-path: circle(59.0% at 33% 37%);
+  
+}
+
+#labels {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 30px;
+font-family: 'Teko', sans-serif;
+}
+
+#level{
+  font-family: 'Russo One', sans-serif;
+  font-size: 20px;
+  color: red;
+}
+
+
+.selectbtn {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  box-shadow: 0 8px 10px -10px #262626;
+  
+  
+}
+
+.selectbtn:active{
+  
+  box-shadow: 0 8px 6px -6px black;
+}
+
+#start{
+  background-color: #33cc33;
+}
+#strict{
+  background-color: yellow;
+}
+
+#messages {
+  display: block;
+ 
+}
+
+@media (min-width: 768px){
+  #name {
+    top: 355px;
+    font-size: 55px;
+  }
+  #R{
+    top: 327px;
+  }
+  #box{
+    width: 640px;
+    height: 640px;
+    left: 50%;
+    margin-left: -320px;
+  }
+  
+  .buttons { 
+    width: 40%;
+    height: 40%;
+    margin: 4.5%;
+
+  }
+  
+  #box1 {
+    display: inline-block;
+    margin: 0px 30px;
+  }
+   #box2 {
+    display: inline-block;
+     margin: 0px 30px;
+  }
+   #box3 {
+    display: inline-block;
+     margin: 0px 30px;
+  }
+  #level{
+      font-size: 36px;
+  }
+}
